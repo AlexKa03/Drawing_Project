@@ -1,0 +1,19 @@
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.csproj.AssemblyReference.cache
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing_App.DrawingApp.resources
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.csproj.GenerateResource.cache
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\bin\Debug\net7.0-windows\Drawing App.exe
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\bin\Debug\net7.0-windows\Drawing App.deps.json
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\bin\Debug\net7.0-windows\Drawing App.runtimeconfig.json
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\bin\Debug\net7.0-windows\Drawing App.dll
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\bin\Debug\net7.0-windows\Drawing App.pdb
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing_App.Properties.Resources.resources
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.AssemblyInfoInputs.cache
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.AssemblyInfo.cs
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.csproj.CoreCompileInputs.cache
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.dll
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\refint\Drawing App.dll
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.pdb
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing App.genruntimeconfig.cache
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\ref\Drawing App.dll
+C:\Programing\Technical University\C#\Object Oriented Programing\Drawing App\Drawing App\obj\Debug\net7.0-windows\Drawing_App.Forms.ShapeProperties.resources

@@ -5,14 +5,17 @@ using System.Windows.Forms;
 using Drawing_App.Shapes;
 using Drawing_App.Shapes.Shapes;
 using Drawing_App.Forms;
+using System.Reflection;
 
 namespace Drawing_App
 {
     public partial class DrawingApp : Form
     {
+
         public DrawingApp()
         {
             InitializeComponent();
+            Icon myIcon = LoadIconFromResources("Drawing_App.icon.ico");
 
             Width = 1172;
             Height = 751;
@@ -24,7 +27,21 @@ namespace Drawing_App
 
             this.Load += ColorButtons_Load;
         }
-
+        private Icon LoadIconFromResources(string icon)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using (var stream = assembly.GetManifestResourceStream(icon))
+            {
+                if (stream != null)
+                {
+                    return new Icon(stream);
+                }
+                else
+                {
+                    throw new ArgumentException($"Resource '{icon}' not found.");
+                }
+            }
+        }
 
         //---------------------------------- Variables ---------------------------------
         List<Shape> shapes = new List<Shape>();
@@ -210,20 +227,24 @@ namespace Drawing_App
 
             Shape clickedShape = shapes.FirstOrDefault(shape => shape.ContainsPoint(clickPoint));
 
+            
+
             if (clickedShape != null)
             {
                 string shapeType = clickedShape.GetType().Name;
+
+                ShapeProperties shapeInformation = new ShapeProperties(shapeType, 0, clickedShape.Width);
 
                 if (shapeType == "RectangleShape")
                 {
                     int height = clickedShape.Height;
 
-                    ShapeProperties shapeInformation = new ShapeProperties(shapeType, height, clickedShape.Width);
-                    shapeInformation.ShowDialog();
+                    shapeInformation = new ShapeProperties(shapeType, height, clickedShape.Width);
+                    //shapeInformation.ShowDialog();
                 }
 
                 //ShapeProperties shapeInformation = new ShapeProperties(clickedShape, shapeType, shapes);
-                //shapeInformation.ShowDialog();
+                shapeInformation.ShowDialog();
             }
         }
         private void PictureBox_MouseDown(object sender, MouseEventArgs e)

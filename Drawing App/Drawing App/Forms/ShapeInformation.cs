@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace Drawing_App.Forms
 {
@@ -21,12 +22,28 @@ namespace Drawing_App.Forms
         public ShapeProperties(string shapeType, int height, int width)
         {
             InitializeComponent();
+            Icon myIcon = LoadIconFromResources("Drawing_App.icon.ico");
 
             _shapeType = shapeType;
             _width = width;
             _height = height;
 
             CreateLabelsBasedOnShapeType(_shapeType, _height, _width);
+        }
+        private Icon LoadIconFromResources(string icon)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using (var stream = assembly.GetManifestResourceStream(icon))
+            {
+                if (stream != null)
+                {
+                    return new Icon(stream);
+                }
+                else
+                {
+                    throw new ArgumentException($"Resource '{icon}' not found.");
+                }
+            }
         }
 
         private void CreateLabelsBasedOnShapeType(string shapeType, int height, int width)

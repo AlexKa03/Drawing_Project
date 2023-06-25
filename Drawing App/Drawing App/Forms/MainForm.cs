@@ -49,7 +49,7 @@ namespace Drawing_App
         Graphics graphics;
         Bitmap bitmap;
         Point pointX, pointY;
-        Pen pencil = new Pen(Color.Black, 5);
+        Pen pencil = new Pen(Color.Black, 25);
         int xOne, yOne, xTwo, yTwo, xThree, yThree = 0;
         bool isPainting = false;
         string whatToDo = string.Empty;

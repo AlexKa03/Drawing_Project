@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programing\\Technical University\\C#\\Object Oriented Programing\\Drawing App\\Drawing App\\Drawing App.csproj": {}
+    "C:\\Programing\\GitHub repo\\Drawing_Project\\Drawing App\\Drawing App\\Drawing App.csproj": {}
   },
   "projects": {
-    "C:\\Programing\\Technical University\\C#\\Object Oriented Programing\\Drawing App\\Drawing App\\Drawing App.csproj": {
+    "C:\\Programing\\GitHub repo\\Drawing_Project\\Drawing App\\Drawing App\\Drawing App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\Technical University\\C#\\Object Oriented Programing\\Drawing App\\Drawing App\\Drawing App.csproj",
+        "projectUniqueName": "C:\\Programing\\GitHub repo\\Drawing_Project\\Drawing App\\Drawing App\\Drawing App.csproj",
         "projectName": "Drawing App",
-        "projectPath": "C:\\Programing\\Technical University\\C#\\Object Oriented Programing\\Drawing App\\Drawing App\\Drawing App.csproj",
+        "projectPath": "C:\\Programing\\GitHub repo\\Drawing_Project\\Drawing App\\Drawing App\\Drawing App.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\Technical University\\C#\\Object Oriented Programing\\Drawing App\\Drawing App\\obj\\",
+        "outputPath": "C:\\Programing\\GitHub repo\\Drawing_Project\\Drawing App\\Drawing App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
